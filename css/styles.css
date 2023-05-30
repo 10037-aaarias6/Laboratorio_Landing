@@ -1,0 +1,45 @@
+.display-3 {
+    font-family: Arial, sans-serif;
+}
+
+body, html {
+    height: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background: linear-gradient(rgba(95, 95, 189, 0.8), rgba(234, 35, 78, 0.7)),url("../img/bg.jpg");
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+}
+
+.logo {
+    height: 160px;
+    margin-top: 20px;
+}
+
+.text-description {
+    letter-spacing: 2px;
+    font-family: sans-serif;    
+}
+
+.form-control {
+    background: transparent !important;
+    color: #fff !important;
+}
+
+a .fab {
+    color: #ffc;
+    font-size: 30px;
+    margin: 0 10px;
+}
+
+
+.email-input:focus {
+    box-shadow: 0 0 5px rgb(255, 255, 255);
+  }
+
+
+
